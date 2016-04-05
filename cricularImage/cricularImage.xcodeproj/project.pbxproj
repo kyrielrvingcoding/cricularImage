@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77016F981CB3540F00B268F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77016F971CB3540F00B268F4 /* main.m */; };
+		77016F9B1CB3540F00B268F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77016F9A1CB3540F00B268F4 /* AppDelegate.m */; };
+		77016F9E1CB3540F00B268F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77016F9D1CB3540F00B268F4 /* ViewController.m */; };
+		77016FA11CB3540F00B268F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77016F9F1CB3540F00B268F4 /* Main.storyboard */; };
+		77016FA31CB3540F00B268F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77016FA21CB3540F00B268F4 /* Assets.xcassets */; };
+		77016FA61CB3540F00B268F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77016FA41CB3540F00B268F4 /* LaunchScreen.storyboard */; };
+		77016FB11CB3540F00B268F4 /* cricularImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77016FB01CB3540F00B268F4 /* cricularImageTests.m */; };
+		77016FBC1CB3540F00B268F4 /* cricularImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77016FBB1CB3540F00B268F4 /* cricularImageUITests.m */; };
+		77016FD11CB3568B00B268F4 /* CricularImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 77016FD01CB3568B00B268F4 /* CricularImage.m */; };
+		77016FD71CB3640300B268F4 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77016FD21CB3640300B268F4 /* 1.jpg */; };
+		77016FD81CB3640300B268F4 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77016FD31CB3640300B268F4 /* 2.jpg */; };
+		77016FD91CB3640300B268F4 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77016FD41CB3640300B268F4 /* 3.jpg */; };
+		77016FDA1CB3640300B268F4 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77016FD51CB3640300B268F4 /* 4.jpg */; };
+		77016FDB1CB3640300B268F4 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77016FD61CB3640300B268F4 /* 5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77016FAD1CB3540F00B268F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77016F8B1CB3540F00B268F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77016F921CB3540F00B268F4;
+			remoteInfo = cricularImage;
+		};
+		77016FB81CB3540F00B268F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77016F8B1CB3540F00B268F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77016F921CB3540F00B268F4;
+			remoteInfo = cricularImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77016F931CB3540F00B268F4 /* cricularImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cricularImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77016F971CB3540F00B268F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77016F991CB3540F00B268F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77016F9A1CB3540F00B268F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77016F9C1CB3540F00B268F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77016F9D1CB3540F00B268F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77016FA01CB3540F00B268F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77016FA21CB3540F00B268F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77016FA51CB3540F00B268F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77016FA71CB3540F00B268F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77016FAC1CB3540F00B268F4 /* cricularImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cricularImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77016FB01CB3540F00B268F4 /* cricularImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cricularImageTests.m; sourceTree = "<group>"; };
+		77016FB21CB3540F00B268F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77016FB71CB3540F00B268F4 /* cricularImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cricularImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77016FBB1CB3540F00B268F4 /* cricularImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cricularImageUITests.m; sourceTree = "<group>"; };
+		77016FBD1CB3540F00B268F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77016FCF1CB3568B00B268F4 /* CricularImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricularImage.h; sourceTree = "<group>"; };
+		77016FD01CB3568B00B268F4 /* CricularImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricularImage.m; sourceTree = "<group>"; };
+		77016FD21CB3640300B268F4 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		77016FD31CB3640300B268F4 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		77016FD41CB3640300B268F4 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		77016FD51CB3640300B268F4 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		77016FD61CB3640300B268F4 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77016F901CB3540F00B268F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77016FA91CB3540F00B268F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77016FB41CB3540F00B268F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77016F8A1CB3540F00B268F4 = {
+			isa = PBXGroup;
+			children = (
+				77016F951CB3540F00B268F4 /* cricularImage */,
+				77016FAF1CB3540F00B268F4 /* cricularImageTests */,
+				77016FBA1CB3540F00B268F4 /* cricularImageUITests */,
+				77016F941CB3540F00B268F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77016F941CB3540F00B268F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77016F931CB3540F00B268F4 /* cricularImage.app */,
+				77016FAC1CB3540F00B268F4 /* cricularImageTests.xctest */,
+				77016FB71CB3540F00B268F4 /* cricularImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77016F951CB3540F00B268F4 /* cricularImage */ = {
+			isa = PBXGroup;
+			children = (
+				77016F991CB3540F00B268F4 /* AppDelegate.h */,
+				77016F9A1CB3540F00B268F4 /* AppDelegate.m */,
+				77016F9C1CB3540F00B268F4 /* ViewController.h */,
+				77016F9D1CB3540F00B268F4 /* ViewController.m */,
+				77016FCF1CB3568B00B268F4 /* CricularImage.h */,
+				77016FD01CB3568B00B268F4 /* CricularImage.m */,
+				77016F9F1CB3540F00B268F4 /* Main.storyboard */,
+				77016FD21CB3640300B268F4 /* 1.jpg */,
+				77016FD31CB3640300B268F4 /* 2.jpg */,
+				77016FD41CB3640300B268F4 /* 3.jpg */,
+				77016FD51CB3640300B268F4 /* 4.jpg */,
+				77016FD61CB3640300B268F4 /* 5.jpg */,
+				77016FA21CB3540F00B268F4 /* Assets.xcassets */,
+				77016FA41CB3540F00B268F4 /* LaunchScreen.storyboard */,
+				77016FA71CB3540F00B268F4 /* Info.plist */,
+				77016F961CB3540F00B268F4 /* Supporting Files */,
+			);
+			path = cricularImage;
+			sourceTree = "<group>";
+		};
+		77016F961CB3540F00B268F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77016F971CB3540F00B268F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77016FAF1CB3540F00B268F4 /* cricularImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				77016FB01CB3540F00B268F4 /* cricularImageTests.m */,
+				77016FB21CB3540F00B268F4 /* Info.plist */,
+			);
+			path = cricularImageTests;
+			sourceTree = "<group>";
+		};
+		77016FBA1CB3540F00B268F4 /* cricularImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77016FBB1CB3540F00B268F4 /* cricularImageUITests.m */,
+				77016FBD1CB3540F00B268F4 /* Info.plist */,
+			);
+			path = cricularImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77016F921CB3540F00B268F4 /* cricularImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77016FC01CB3540F00B268F4 /* Build configuration list for PBXNativeTarget "cricularImage" */;
+			buildPhases = (
+				77016F8F1CB3540F00B268F4 /* Sources */,
+				77016F901CB3540F00B268F4 /* Frameworks */,
+				77016F911CB3540F00B268F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cricularImage;
+			productName = cricularImage;
+			productReference = 77016F931CB3540F00B268F4 /* cricularImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77016FAB1CB3540F00B268F4 /* cricularImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77016FC31CB3540F00B268F4 /* Build configuration list for PBXNativeTarget "cricularImageTests" */;
+			buildPhases = (
+				77016FA81CB3540F00B268F4 /* Sources */,
+				77016FA91CB3540F00B268F4 /* Frameworks */,
+				77016FAA1CB3540F00B268F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77016FAE1CB3540F00B268F4 /* PBXTargetDependency */,
+			);
+			name = cricularImageTests;
+			productName = cricularImageTests;
+			productReference = 77016FAC1CB3540F00B268F4 /* cricularImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77016FB61CB3540F00B268F4 /* cricularImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77016FC61CB3540F00B268F4 /* Build configuration list for PBXNativeTarget "cricularImageUITests" */;
+			buildPhases = (
+				77016FB31CB3540F00B268F4 /* Sources */,
+				77016FB41CB3540F00B268F4 /* Frameworks */,
+				77016FB51CB3540F00B268F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77016FB91CB3540F00B268F4 /* PBXTargetDependency */,
+			);
+			name = cricularImageUITests;
+			productName = cricularImageUITests;
+			productReference = 77016FB71CB3540F00B268F4 /* cricularImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77016F8B1CB3540F00B268F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "诸超杰";
+				TargetAttributes = {
+					77016F921CB3540F00B268F4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					77016FAB1CB3540F00B268F4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 77016F921CB3540F00B268F4;
+					};
+					77016FB61CB3540F00B268F4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 77016F921CB3540F00B268F4;
+					};
+				};
+			};
+			buildConfigurationList = 77016F8E1CB3540F00B268F4 /* Build configuration list for PBXProject "cricularImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77016F8A1CB3540F00B268F4;
+			productRefGroup = 77016F941CB3540F00B268F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77016F921CB3540F00B268F4 /* cricularImage */,
+				77016FAB1CB3540F00B268F4 /* cricularImageTests */,
+				77016FB61CB3540F00B268F4 /* cricularImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77016F911CB3540F00B268F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77016FA61CB3540F00B268F4 /* LaunchScreen.storyboard in Resources */,
+				77016FDB1CB3640300B268F4 /* 5.jpg in Resources */,
+				77016FDA1CB3640300B268F4 /* 4.jpg in Resources */,
+				77016FD71CB3640300B268F4 /* 1.jpg in Resources */,
+				77016FD81CB3640300B268F4 /* 2.jpg in Resources */,
+				77016FD91CB3640300B268F4 /* 3.jpg in Resources */,
+				77016FA31CB3540F00B268F4 /* Assets.xcassets in Resources */,
+				77016FA11CB3540F00B268F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77016FAA1CB3540F00B268F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77016FB51CB3540F00B268F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77016F8F1CB3540F00B268F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77016F9E1CB3540F00B268F4 /* ViewController.m in Sources */,
+				77016F9B1CB3540F00B268F4 /* AppDelegate.m in Sources */,
+				77016FD11CB3568B00B268F4 /* CricularImage.m in Sources */,
+				77016F981CB3540F00B268F4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77016FA81CB3540F00B268F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77016FB11CB3540F00B268F4 /* cricularImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77016FB31CB3540F00B268F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77016FBC1CB3540F00B268F4 /* cricularImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77016FAE1CB3540F00B268F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77016F921CB3540F00B268F4 /* cricularImage */;
+			targetProxy = 77016FAD1CB3540F00B268F4 /* PBXContainerItemProxy */;
+		};
+		77016FB91CB3540F00B268F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77016F921CB3540F00B268F4 /* cricularImage */;
+			targetProxy = 77016FB81CB3540F00B268F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77016F9F1CB3540F00B268F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77016FA01CB3540F00B268F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77016FA41CB3540F00B268F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77016FA51CB3540F00B268F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77016FBE1CB3540F00B268F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77016FBF1CB3540F00B268F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77016FC11CB3540F00B268F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cricularImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azui.cricularImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77016FC21CB3540F00B268F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cricularImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azui.cricularImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77016FC41CB3540F00B268F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cricularImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azui.cricularImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cricularImage.app/cricularImage";
+			};
+			name = Debug;
+		};
+		77016FC51CB3540F00B268F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cricularImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azui.cricularImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cricularImage.app/cricularImage";
+			};
+			name = Release;
+		};
+		77016FC71CB3540F00B268F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cricularImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azui.cricularImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cricularImage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		77016FC81CB3540F00B268F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cricularImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = azui.cricularImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cricularImage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77016F8E1CB3540F00B268F4 /* Build configuration list for PBXProject "cricularImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77016FBE1CB3540F00B268F4 /* Debug */,
+				77016FBF1CB3540F00B268F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77016FC01CB3540F00B268F4 /* Build configuration list for PBXNativeTarget "cricularImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77016FC11CB3540F00B268F4 /* Debug */,
+				77016FC21CB3540F00B268F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77016FC31CB3540F00B268F4 /* Build configuration list for PBXNativeTarget "cricularImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77016FC41CB3540F00B268F4 /* Debug */,
+				77016FC51CB3540F00B268F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77016FC61CB3540F00B268F4 /* Build configuration list for PBXNativeTarget "cricularImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77016FC71CB3540F00B268F4 /* Debug */,
+				77016FC81CB3540F00B268F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77016F8B1CB3540F00B268F4 /* Project object */;
+}
